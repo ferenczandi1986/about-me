@@ -1,12 +1,4 @@
-.profile-card {
-	background-color: yellow
-}
-.head, .content {
-	background-color: green
-}
-.profile-image, name-headline, .p.about, .section.links {
-	background-color: palevioletred
-}
+
 
 
 
@@ -31,6 +23,80 @@ body {
 body {
   height: 100vh;
 }
-.head, .links {
+.head, .section.links {
   text-align: center;
 }
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 125px;
+  height: 125px;
+  border-radius: 25%;
+	transition: all 2s ease-in-out;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li { 
+  display: inline;
+}
+.head, p.about {
+  margin-bottom: 15%;
+
+}
+
+.content, .p.about{
+	font-family: cursive, sans-serif;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.content {
+  padding: 10% 20%;
+}
+
+body {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLSvfHSj0qDyHG_h9CvX6kFnyfyskcaAsZlw&usqp=CAU') no-repeat center center fixed;
+  background-size: cover;
+	font-family: monospace, Verdana, Arial;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+img {
+  padding: 3px;
+  background-color: black;
+}
+
+.content {
+  border-top: 3px solid black;
+}
+
+img:hover {
+  transform: scale(2.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
